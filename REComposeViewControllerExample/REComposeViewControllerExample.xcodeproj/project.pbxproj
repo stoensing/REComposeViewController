@@ -27,6 +27,11 @@
 		30554D24163253950069220E /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30554D23163253950069220E /* bg@2x.png */; };
 		30554D26163255070069220E /* foursquare-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30554D25163255070069220E /* foursquare-logo@2x.png */; };
 		30FD6D641631F8550017516D /* REComposeViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 30FD6D631631F8550017516D /* REComposeViewController.bundle */; };
+		AA7C6A0417691C6100A360BB /* SternOFF.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7C6A0017691C6100A360BB /* SternOFF.png */; };
+		AA7C6A0517691C6100A360BB /* SternOFF@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7C6A0117691C6100A360BB /* SternOFF@2x.png */; };
+		AA7C6A0617691C6100A360BB /* SternON.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7C6A0217691C6100A360BB /* SternON.png */; };
+		AA7C6A0717691C6100A360BB /* SternON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA7C6A0317691C6100A360BB /* SternON@2x.png */; };
+		AA7C6A0A17691D2200A360BB /* REComposeRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7C6A0917691D2200A360BB /* REComposeRatingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +65,12 @@
 		30554D23163253950069220E /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
 		30554D25163255070069220E /* foursquare-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "foursquare-logo@2x.png"; sourceTree = "<group>"; };
 		30FD6D631631F8550017516D /* REComposeViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = REComposeViewController.bundle; sourceTree = "<group>"; };
+		AA7C6A0017691C6100A360BB /* SternOFF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SternOFF.png; sourceTree = "<group>"; };
+		AA7C6A0117691C6100A360BB /* SternOFF@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SternOFF@2x.png"; sourceTree = "<group>"; };
+		AA7C6A0217691C6100A360BB /* SternON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SternON.png; sourceTree = "<group>"; };
+		AA7C6A0317691C6100A360BB /* SternON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SternON@2x.png"; sourceTree = "<group>"; };
+		AA7C6A0817691D2200A360BB /* REComposeRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REComposeRatingView.h; sourceTree = "<group>"; };
+		AA7C6A0917691D2200A360BB /* REComposeRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REComposeRatingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +149,10 @@
 		30118CE81631D11B00B82F14 /* REComposeViewController */ = {
 			isa = PBXGroup;
 			children = (
+				AA7C6A0017691C6100A360BB /* SternOFF.png */,
+				AA7C6A0117691C6100A360BB /* SternOFF@2x.png */,
+				AA7C6A0217691C6100A360BB /* SternON.png */,
+				AA7C6A0317691C6100A360BB /* SternON@2x.png */,
 				30FD6D631631F8550017516D /* REComposeViewController.bundle */,
 				30118D241631F29900B82F14 /* DEComposeRuledView.h */,
 				30118D251631F29900B82F14 /* DEComposeRuledView.m */,
@@ -149,6 +164,8 @@
 				30118D081631DBB500B82F14 /* REComposeBackgroundView.m */,
 				30118D021631D92800B82F14 /* REComposeSheetView.h */,
 				30118D031631D92800B82F14 /* REComposeSheetView.m */,
+				AA7C6A0817691D2200A360BB /* REComposeRatingView.h */,
+				AA7C6A0917691D2200A360BB /* REComposeRatingView.m */,
 			);
 			name = REComposeViewController;
 			path = ../REComposeViewController;
@@ -213,6 +230,10 @@
 				30554D21163231F00069220E /* Flower.jpg in Resources */,
 				30554D24163253950069220E /* bg@2x.png in Resources */,
 				30554D26163255070069220E /* foursquare-logo@2x.png in Resources */,
+				AA7C6A0417691C6100A360BB /* SternOFF.png in Resources */,
+				AA7C6A0517691C6100A360BB /* SternOFF@2x.png in Resources */,
+				AA7C6A0617691C6100A360BB /* SternON.png in Resources */,
+				AA7C6A0717691C6100A360BB /* SternON@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +252,7 @@
 				30118D281631F31600B82F14 /* DEComposeRuledView.m in Sources */,
 				30118D291631F31800B82F14 /* DEComposeTextView.m in Sources */,
 				30118D091631DBB500B82F14 /* REComposeBackgroundView.m in Sources */,
+				AA7C6A0A17691D2200A360BB /* REComposeRatingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

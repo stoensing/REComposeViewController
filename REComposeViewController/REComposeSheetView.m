@@ -61,6 +61,11 @@
         [_textViewContainer addSubview:_textView];
         [self addSubview:_textViewContainer];
         
+        _ratingView = [[REComposeRatingView alloc] initWithFrame:CGRectMake(frame.size.width - 180, frame.size.height - 50, 180, 34)];
+        _ratingView.backgroundColor = [UIColor whiteColor];
+//        _ratingView.hidden = YES;
+        [self addSubview:_ratingView];
+        
         _attachmentView = [[UIView alloc] initWithFrame:CGRectMake(frame.size.width - 84, 54, 84, 79)];
         [self addSubview:_attachmentView];
         
